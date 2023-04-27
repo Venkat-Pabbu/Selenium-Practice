@@ -15,7 +15,7 @@ public class Loops {
 		// for loop
 
 		for (int i = 0; i < arr.length; i++) {
-			//System.out.println(arr[i]);
+			// System.out.println(arr[i]);
 		}
 
 		// for loop
@@ -23,13 +23,19 @@ public class Loops {
 		int[] arr1 = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
 		for (int i = 0; i < arr1.length; i++) {
-			//System.out.println(arr1[i]);
+			// System.out.println(arr1[i]);
 		}
 
 		String[] names = { "venkat", "sai", "pardha", "harika", "surya", "lakshmi", "razz" };
 
 		for (int i = 0; i < names.length; i++) {
-			System.out.println(names[i]);
+			// System.out.println(names[i]);
+		}
+
+		// Enhanced for loop
+
+		for (String s : names) {
+			// System.out.println(s);
 		}
 	}
 }
